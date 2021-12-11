@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* customs styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.6;
+    font-size: 14px;
+    font-family: sans-serif;
+   
+   
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+:root {
+     --primary:rgb(34,41,70);
+     --btn:rgb(83,182,103);
+}
+
+.btn {
+    padding: 10px 10px;
+    background-color: var(--btn);
+    border: 0;
+}
+
+/* custom styles */
+/* header */
+.navbar1 a{
+    text-transform: uppercase;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--btn);
+}
+
+header {
+    background-color: var(--primary);
+}
+
+
+
+/* section1 */
+.aside1 {
+    width: 500px;
+}
+
+.aside1 h2 {
+    font-size: 28px;
+    font-weight: 900;
+    padding: 10px 10px;
+    text-transform: capitalize;
+}
+
+.aside1 p {
+    padding: 10px 10px;
+}
+
+.aside2 img {
+    width: 500px;
+}
+
+/* section2 */
+.bg {
+    width: 350px;
+    padding: 10px 10px;
+}
+.article1 img {
+    width: 280px;
+    height: 200px;
+}
+.article1 h2 {
+    font-size: 28px;
+    font-weight: 900;
+    padding: 5px 5px;
+    text-transform: capitalize;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 10px 5px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* footer */
+.navbar2 a{
+    margin-left: 30px;
+    color: var(--btn);
+}
+footer {
+    background-color: var(--primary);
+    padding: 10px;
+  
+}
